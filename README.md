@@ -30,7 +30,7 @@ The plugin is built using [Plugin Devkit](https://www.jetbrains.org/intellij/sdk
 
 ### Application Design
 
-![](https://bitbucket.org/rahulromilkeswani/homework2/raw/5aa022d7200f879406be25070c7d535ad13829a7/Screenshots/Capture.JPG)
+![](https://github.com/rahulromilkeswani/intellij-idea-plugin-to-create-design-patterns/blob/master/Screenshots/Capture.jpg)
 
 #### Modules
 
@@ -52,7 +52,7 @@ The plugin is built using [Plugin Devkit](https://www.jetbrains.org/intellij/sdk
 
    Below is the gradle dependency diagram of the Plugin. 
 
-   ![cap2](https://bitbucket.org/rahulromilkeswani/homework2/raw/5aa022d7200f879406be25070c7d535ad13829a7/Screenshots/cap2.JPG)
+   ![cap2](https://github.com/rahulromilkeswani/intellij-idea-plugin-to-create-design-patterns/blob/master/Screenshots/cap2.jpg)
 
 ### Output and Simulation
 
@@ -78,13 +78,12 @@ The plugin is built using [Plugin Devkit](https://www.jetbrains.org/intellij/sdk
 
 #### **Menu**
 
-![Menu](https://bitbucket.org/rahulromilkeswani/homework2/raw/5aa022d7200f879406be25070c7d535ad13829a7/Screenshots/Menu.png)
+![Menu](https://github.com/rahulromilkeswani/intellij-idea-plugin-to-create-design-patterns/blob/master/Screenshots/Menu.png)
 
 ##### Getting Inputs for the pattern
 
-![Menu](https://bitbucket.org/rahulromilkeswani/homework2/raw/5aa022d7200f879406be25070c7d535ad13829a7/Screenshots/Strategy.PNG)
+![Menu](https://github.com/rahulromilkeswani/intellij-idea-plugin-to-create-design-patterns/blob/master/Screenshots/Strategy.png)
 
-Screenshots of runs for all patterns can be found in the Screenshots directory. 
 
 ### Limitations
 

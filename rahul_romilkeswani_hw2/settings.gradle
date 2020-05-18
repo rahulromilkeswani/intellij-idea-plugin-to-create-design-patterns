@@ -1,0 +1,3 @@
+rootProject.name = 'DePaCoG Plugin'
+include ':rahul_romilkeswani_hw1'
+project(':rahul_romilkeswani_hw1').projectDir = new File("../rahul_romilkeswani_hw1")

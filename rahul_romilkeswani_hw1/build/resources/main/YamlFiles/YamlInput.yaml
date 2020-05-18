@@ -1,0 +1,7 @@
+Singleton:
+  Field:
+    INSTANCE: Singleton
+  Method: {
+    }
+  Interface: {
+    }

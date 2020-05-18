@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test.ConfigTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-10T00:26:30" hostname="DESKTOP-QVI9PDE" time="0.148">
+  <properties/>
+  <testcase name="checkException" classname="Test.ConfigTest" time="0.002"/>
+  <testcase name="testConfigValues" classname="Test.ConfigTest" time="0.0"/>
+  <testcase name="checkException" classname="Test.ConfigTest" time="0.0"/>
+  <testcase name="testConfigValues" classname="Test.ConfigTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,43 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="193.6015" until-build="193.*"/>
+  <id>org.example.DePaCoG Plugin</id>
+  <name>Design Patterns Code Generator</name>
+  <vendor email="rromil2@uic.edu" url="">OOLE</vendor>
+  <description>
+    This lets you create a skeleton for the invoked design pattern.
+    </description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <group id="DesignPatternCodeGenerator" text="Create Design Patterns" description="Build skeleton code for design patterns" popup="true">
+      <add-to-group group-id="CodeMenu" anchor="last"/>
+      <action class="Action.SingletonAction" id="SingletonAction" text="Singleton"/>
+      <action class="Action.AbstractFactoryAction" id="AbstractFactory" text="Abstract Factory"/>
+      <action class="Action.BuilderAction" id="Builder" text="Builder"/>
+      <action class="Action.FactoryMethodAction" id="FactoryMethod" text="Factory Method"/>
+      <action class="Action.FacadeAction" id="Facade" text="Facade"/>
+      <action class="Action.ChainOfResponsibilityAction" id="ChainOfResponsibility" text="Chain Of Responsibility"/>
+      <action class="Action.MediatorAction" id="Mediator" text="Mediator"/>
+      <action class="Action.VisitorAction" id="Visitor" text="Visitor"/>
+      <action class="Action.TemplateAction" id="Template" text="Template"/>
+      <action class="Action.PrototypeAction" id="Prototype" text="Prototype"/>
+      <action class="Action.AdapterAction" id="Adapter" text="Adapter"/>
+      <action class="Action.BridgeAction" id="Bridge" text="Bridge"/>
+      <action class="Action.CompositeAction" id="Composite" text="Composite"/>
+      <action class="Action.DecoratorAction" id="Decorator" text="Decorator"/>
+      <action class="Action.FlyweightAction" id="Flyweight" text="Flyweight"/>
+      <action class="Action.ProxyAction" id="Proxy" text="Proxy"/>
+      <action class="Action.CommandAction" id="Command" text="Command"/>
+      <action class="Action.InterpreterAction" id="Interpreter" text="Interpreter"/>
+      <action class="Action.IteratorAction" id="Iterator" text="Iterator"/>
+      <action class="Action.MementoAction" id="Memento" text="Memento"/>
+      <action class="Action.ObserverAction" id="Observer" text="Observer"/>
+      <action class="Action.StateAction" id="State" text="State"/>
+      <action class="Action.StrategyAction" id="Strategy" text="Strategy"/>
+    </group>
+  </actions>
+</idea-plugin>

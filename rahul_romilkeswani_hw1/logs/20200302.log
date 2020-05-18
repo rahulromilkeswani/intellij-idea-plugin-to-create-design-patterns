@@ -1,0 +1,9 @@
+21:04:29.912 [main] INFO  Main - Main method called
+21:04:34.084 [main] INFO  Factory.InputReaderFactory - Singleton pattern invoked
+21:04:34.199 [main] INFO  Facade.GeneratorFacade - Generator Facade created
+21:04:34.215 [main] INFO  InputReader.InputReader - Output directory cleared
+21:04:44.126 [main] INFO  Facade.GeneratorFacade - Creating .yaml file for Singleton
+21:04:44.202 [main] INFO  Generator.YamlGenerator - Created .yaml file for Singleton
+21:04:44.202 [main] INFO  Facade.GeneratorFacade - Creating .java file for Singleton
+21:04:44.394 [main] INFO  Generator.ClassGenerator - Created .java file for Singleton
+21:04:44.394 [main] INFO  Main - Main method ended

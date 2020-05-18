@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="abstract" path="ActionManager" hit="Abstract Factory" />
+    <option name="factory" path="ActionManager" hit="Abstract Factory" />
+    <option name="adapter" path="ActionManager" hit="Adapter" />
+    <option name="bridge" path="ActionManager" hit="Bridge" />
+    <option name="builder" path="ActionManager" hit="Builder" />
+    <option name="chain" path="ActionManager" hit="Chain Of Responsibility" />
+    <option name="of" path="ActionManager" hit="Chain Of Responsibility" />
+    <option name="responsibility" path="ActionManager" hit="Chain Of Responsibility" />
+    <option name="command" path="ActionManager" hit="Command" />
+    <option name="composite" path="ActionManager" hit="Composite" />
+    <option name="decorator" path="ActionManager" hit="Decorator" />
+    <option name="facade" path="ActionManager" hit="Facade" />
+    <option name="factory" path="ActionManager" hit="Factory Method" />
+    <option name="method" path="ActionManager" hit="Factory Method" />
+    <option name="flyweight" path="ActionManager" hit="Flyweight" />
+    <option name="interpreter" path="ActionManager" hit="Interpreter" />
+    <option name="iterator" path="ActionManager" hit="Iterator" />
+    <option name="mediator" path="ActionManager" hit="Mediator" />
+    <option name="memento" path="ActionManager" hit="Memento" />
+    <option name="observer" path="ActionManager" hit="Observer" />
+    <option name="prototype" path="ActionManager" hit="Prototype" />
+    <option name="proxy" path="ActionManager" hit="Proxy" />
+    <option name="singleton" path="ActionManager" hit="Singleton" />
+    <option name="state" path="ActionManager" hit="State" />
+    <option name="strategy" path="ActionManager" hit="Strategy" />
+    <option name="template" path="ActionManager" hit="Template" />
+    <option name="visitor" path="ActionManager" hit="Visitor" />
+  </configurable>
+</options>
+

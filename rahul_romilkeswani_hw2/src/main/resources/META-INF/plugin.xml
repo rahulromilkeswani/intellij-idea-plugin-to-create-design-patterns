@@ -1,0 +1,46 @@
+<idea-plugin>
+    <id>org.example.DePaCoG Plugin</id>
+    <name>Design Patterns Code Generator</name>
+    <vendor email="rromil2@uic.edu" url="">OOLE</vendor>
+
+    <description><![CDATA[
+    This lets you create a skeleton for the invoked design pattern.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group id="DesignPatternCodeGenerator" text="Create Design Patterns" description="Build skeleton code for design patterns" popup="true">
+            <add-to-group group-id="CodeMenu" anchor="last">
+            </add-to-group>
+            <action class="Action.SingletonAction" id="SingletonAction" text="Singleton"></action>
+            <action class="Action.AbstractFactoryAction" id="AbstractFactory" text="Abstract Factory"></action>
+            <action class="Action.BuilderAction" id="Builder" text="Builder"></action>
+            <action class="Action.FactoryMethodAction" id="FactoryMethod" text="Factory Method"></action>
+            <action class="Action.FacadeAction" id="Facade" text="Facade"></action>
+            <action class="Action.ChainOfResponsibilityAction" id="ChainOfResponsibility" text="Chain Of Responsibility"></action>
+            <action class="Action.MediatorAction" id="Mediator" text="Mediator"></action>
+            <action class="Action.VisitorAction" id="Visitor" text="Visitor"></action>
+            <action class="Action.TemplateAction" id="Template" text="Template"></action>
+            <action class="Action.PrototypeAction" id="Prototype" text="Prototype"></action>
+            <action class="Action.AdapterAction" id="Adapter" text="Adapter"></action>
+            <action class="Action.BridgeAction" id="Bridge" text="Bridge"></action>
+            <action class="Action.CompositeAction" id="Composite" text="Composite"></action>
+            <action class="Action.DecoratorAction" id="Decorator" text="Decorator"></action>
+            <action class="Action.FlyweightAction" id="Flyweight" text="Flyweight"></action>
+            <action class="Action.ProxyAction" id="Proxy" text="Proxy"></action>
+            <action class="Action.CommandAction" id="Command" text="Command"></action>
+            <action class="Action.InterpreterAction" id="Interpreter" text="Interpreter"></action>
+            <action class="Action.IteratorAction" id="Iterator" text="Iterator"></action>
+            <action class="Action.MementoAction" id="Memento" text="Memento"></action>
+            <action class="Action.ObserverAction" id="Observer" text="Observer"></action>
+            <action class="Action.StateAction" id="State" text="State"></action>
+            <action class="Action.StrategyAction" id="Strategy" text="Strategy"></action>
+        </group>
+    </actions>
+</idea-plugin>
